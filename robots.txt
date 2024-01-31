@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gioannides.github.io/al-folio/sitemap.xml
+Sitemap: https://gioannides.github.io/sitemap.xml
