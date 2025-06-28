@@ -2,6 +2,7 @@
 layout: Post
 permalink: /
 title: Welcome
+feed: hide
 ---
 
 # Georgios Ioannides

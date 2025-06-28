@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+/* Light mode (default) */
+:root {
+  --primary-color: #007acc;
+  --text-color: #333;
+  --background-color: #fff;
+  --font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #58a6ff;
+    --text-color: #c9d1d9;
+    --background-color: #0d1117;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+}
+
 :root {
   --bg: rgb(255, 252, 240);
   --bg2: rgb(242, 240, 229);
