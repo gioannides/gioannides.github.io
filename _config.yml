@@ -1,30 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Jekyll Garden Configuration for Academic Website
+# Update the values marked with [CHANGE THIS]
 
-# Jekyll Garden Configuration
-# Optimized for actual template usage
-
-# Preferences (controls template behavior)
+# Preferences (keep these as is - they're good defaults)
 preferences:
   homepage:
-    enabled: false
+    enabled: false  # Keep false to use custom homepage
   search:
     enabled: true
   backlinks:
@@ -34,30 +14,43 @@ preferences:
   wiki_style_link:
     enabled: true
 
-# Site Configuration
-title: "Your Site Title"
-heading: "Your Name"
-description: "A brief description of your site"
-url: "https://yoursite.com"
+# Site Configuration - [CHANGE ALL OF THESE]
+title: "Georgios Ioannides's Digital Garden"
+heading: "Georgios Ioannides"
+description: "Academic notes on AI, ML, and Computer Science"
+url: "https://gioannides.github.io"
 baseurl: ""
+
+# Add these for better customization
+name: "Georgios Ioannides"
+user_description: "Minimizing loss, converging on truth"
+email: "gioannid@alumni.cmu.edu"
+github_username: "gioannides"
+linkedin_username: "georgios-ioannides"
 
 # Asset Configuration
 apple_touch_icon: "/assets/img/profile.png"
 css_file: "/assets/css/style.css"
 ie_css: "/assets/css/ie-target.css"
 
-# Menu Items
+# Menu Items - Updated for academic use
 menu:
+  - title: "Home"
+    url: "/"
   - title: "Notes"
     url: "/notes"
+  - title: "Research"
+    url: "/research"
+  - title: "CV"
+    url: "/cv"
   - title: "Blog"
     url: "/blog"
   - title: "About"
     url: "/about"
 
-# Footer
+# Footer - [CHANGE THIS]
 footer:
-  copyright: "© 2024 Your Name. Contents under CC-BY-NC"
+  copyright: "© 2024 [Your Name]. Contents under CC-BY-NC"
   credits:
     enabled: true
     url: "/credits"
@@ -98,7 +91,7 @@ privatelinks:
   msg: "This note hasn't been published yet."
 
 # Math rendering
-katex: true
+katex: true  # Already enabled, great for academic notes!
 
 # Exclude from processing
 exclude:
@@ -109,3 +102,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md
+  - LICENSE
+  - .gitignore
