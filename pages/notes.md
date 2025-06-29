@@ -4,4 +4,4 @@ layout: Post
 permalink: /notes
 ---
 
-Browse all published notes in your digital garden. Notes are organized by connections, not chronology. Click any note to explore its links and context.
+Training my thoughts in the open. This digital garden contains my evolving understanding of AI/ML as we build the future. Each note is a weight in the neural network of ideas.

@@ -43,8 +43,8 @@ menu:
     url: "/research"
   - title: "CV"
     url: "/cv"
-  - title: "Blog"
-    url: "/blog"
+  #- title: "Blog"
+  #  url: "/blog"
   - title: "About"
     url: "/about"
 
@@ -52,7 +52,7 @@ menu:
 footer:
   copyright: "© 2025 Georgios Ioannides"
   credits:
-    enabled: true
+    enabled: false
     url: "/credits"
     text: "Credits"
 
