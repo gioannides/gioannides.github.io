@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-/* Light mode (default) */
+/* Default to dark mode */
 :root {
-  --primary-color: #007acc;
-  --text-color: #333;
-  --background-color: #fff;
-  --font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  --primary-color: #58a6ff;
+  --text-color: #c9d1d9;
+  --background-color: #0d1117;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Light mode only if user prefers it */
+@media (prefers-color-scheme: light) {
   :root {
-    --primary-color: #58a6ff;
-    --text-color: #c9d1d9;
-    --background-color: #0d1117;
-  }
-  
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    --primary-color: #007acc;
+    --text-color: #333;
+    --background-color: #fff;
   }
 }
 
