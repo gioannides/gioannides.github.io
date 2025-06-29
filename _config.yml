@@ -22,6 +22,7 @@ url: "https://gioannides.github.io"
 baseurl: ""
 
 # Add these for better customization
+apple_touch_icon: "/assets/img/profile.png"
 name: "Georgios Ioannides"
 user_description: "Minimizing loss, converging on truth"
 email: "gioannid@alumni.cmu.edu"
