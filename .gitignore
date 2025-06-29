@@ -13,3 +13,4 @@ _site/
 .sass-cache/
 .jekyll-cache/
 _notes/Private/
+.DS_Store
