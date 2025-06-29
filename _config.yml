@@ -4,7 +4,7 @@
 # Preferences (keep these as is - they're good defaults)
 preferences:
   homepage:
-    enabled: false  # Keep false to use custom homepage
+    enabled: true  # Keep false to use custom homepage
   search:
     enabled: true
   backlinks:
