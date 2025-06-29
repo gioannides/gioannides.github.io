@@ -1,28 +1,11 @@
 ---
 title: Research
-permalink: /research
 ---
 
 # Research
 
-My research focuses on machine learning and artificial intelligence.
-
-## Publications
-
-<div id="scholar-stats">
-  <script>
-  // Replace with your Google Scholar ID
-  const scholarId = "qacYrVsAAAAJ";
-  const scholarUrl = `https://scholar.google.com/citations?user=${scholarId}`;
-  
-  document.getElementById('scholar-stats').innerHTML = `
-    <iframe src="https://scholar.google.com/citations?user=${scholarId}&hl=en" 
-            width="100%" height="600" frameborder="0">
-    </iframe>
-  `;
-  </script>
+<div style="margin: 20px 0;">
+  <a href="https://scholar.google.com/citations?user=YOUR_USER_ID" target="_blank" style="display: inline-block; padding: 10px 20px; background: #4285f4; color: white; text-decoration: none; border-radius: 5px;">
+    📚 View my Google Scholar Profile
+  </a>
 </div>
-
-## Current Projects
-
-[Add your current research projects here]
