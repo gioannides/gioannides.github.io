@@ -43,7 +43,7 @@ menu:
   - title: "Research"
     url: "/research"
   - title: "Resume"
-    url: "/resume/resume-geo-io.pdf"
+    url: "/assets/files/resume-geo-io.pdf"
   #- title: "Blog"
   #  url: "/blog"
   - title: "About"
